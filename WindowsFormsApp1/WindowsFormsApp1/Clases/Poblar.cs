@@ -3,32 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1.Clases
 {
     class Poblar
     {
 
-        Estudiante est1 { get; set; }
-        Estudiante est2 { get; set; }
-        Estudiante est3 { get; set; }
-        Estudiante est4 { get; set; }
-        Estudiante est5 { get; set; }
-        Estudiante est6 { get; set; }
-        Estudiante est7 { get; set; }
-        Estudiante est8 { get; set; }
-        Estudiante est9 { get; set; }
-        Estudiante est10 { get; set; }
-        Estudiante est11 { get; set; }
-        Estudiante est12 { get; set; }
-        Estudiante est13 { get; set; }
-        Estudiante est14 { get; set; }
-        Estudiante est15 { get; set; }
-        Estudiante est16 { get; set; }
-        Estudiante est17 { get; set; }
-        Estudiante est18 { get; set; }
-        Estudiante est19 { get; set; }
-        Estudiante est20 { get; set; }
+        private Estudiante est1 { get; set; }
+        private Estudiante est2 { get; set; }
+        private Estudiante est3 { get; set; }
+        private Estudiante est4 { get; set; }
+        private Estudiante est5 { get; set; }
+        private Estudiante est6 { get; set; }
+        private Estudiante est7 { get; set; }
+        private Estudiante est8 { get; set; }
+        private Estudiante est9 { get; set; }
+        private Estudiante est10 { get; set; }
+        private Estudiante est11 { get; set; }
+        private Estudiante est12 { get; set; }
+        private Estudiante est13 { get; set; }
+        private Estudiante est14 { get; set; }
+        private Estudiante est15 { get; set; }
+        private Estudiante est16 { get; set; }
+        private Estudiante est17 { get; set; }
+        private Estudiante est18 { get; set; }
+        private Estudiante est19 { get; set; }
+        private Estudiante est20 { get; set; }
 
 
         Implemento impBF1 { get; set; }
@@ -51,12 +52,17 @@ namespace WindowsFormsApp1.Clases
 
         public Estudiante BuscarEstdudiante(int code)
         {
-            Estudiante[] array = new Estudiante[21];
+            IniciarTodo();
+
+            Estudiante[] array = TodosEstudiantes();
             Estudiante res = null;
+
+            if (array==null) { MessageBox.Show("array null"); }
+            if (array.Length == 0) { MessageBox.Show("array null"); }
 
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i].Code == code) {
+                if (array[i].Code.Equals(code)) {
                     res = array[i];
                 }
             }
@@ -68,6 +74,7 @@ namespace WindowsFormsApp1.Clases
         {
             Estudiante[] array = new Estudiante[21];
 
+            array[0] = est20;
             array[1] = est1;
             array[2] = est2;
             array[3] = est3;

@@ -59,5 +59,12 @@ namespace WindowsFormsApp1
             label19.Text = array[3].Horario[1];
             label18.Text = array[3].Horario[2];
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RegistrarAsistencia frm = new RegistrarAsistencia();
+            frm.Show();
+        }
     }
 }

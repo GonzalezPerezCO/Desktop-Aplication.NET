@@ -32,6 +32,11 @@ namespace WindowsFormsApp1.Clases
             Fallas = fallas;
             Obervaciones = obervaciones;
         }
+
+        public Estudiante()
+        {
+            
+        }
     }
 
     
