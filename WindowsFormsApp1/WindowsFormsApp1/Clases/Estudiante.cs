@@ -16,11 +16,11 @@ namespace WindowsFormsApp1.Clases
         public int Semester { get; set; }
         public bool Enabled { get; set; }
 
-        public string Horario { get; set; }
+        public string[] Horario { get; set; }
         public int Fallas { get; set; }
         public string Obervaciones { get; set; }
 
-        public Estudiante(string name, string lastname, int code, string career, int semester, bool enabled, string horario, int fallas, string obervaciones)
+        public Estudiante(string name, string lastname, int code, string career, int semester, bool enabled, string[] horario, int fallas, string obervaciones)
         {
             Name = name;
             Lastname = lastname;
