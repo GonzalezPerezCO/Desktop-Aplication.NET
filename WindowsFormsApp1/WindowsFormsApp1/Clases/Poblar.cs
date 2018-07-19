@@ -8,5 +8,12 @@ namespace WindowsFormsApp1.Clases
 {
     class Poblar
     {
-    }
+        public void Iniciar() {
+
+
+        }
+
+
+        
+    }    
 }

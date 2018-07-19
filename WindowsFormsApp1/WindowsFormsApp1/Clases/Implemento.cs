@@ -15,6 +15,7 @@ namespace WindowsFormsApp1.Clases
         public int Avalaible { get; set; }
 
         public Estudiante LoTiene { get; set; }
+        public bool Devuelto { get; set; }
 
         public Implemento(string name, string code, int cant, int lost, int avalaible)
         {
@@ -24,6 +25,7 @@ namespace WindowsFormsApp1.Clases
             Lost = lost;
             Avalaible = avalaible;
             LoTiene = null;
+            Devuelto = true;
         }
     }
 }
