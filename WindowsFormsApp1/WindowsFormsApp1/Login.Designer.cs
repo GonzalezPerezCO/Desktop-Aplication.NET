@@ -41,7 +41,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -72,9 +71,11 @@
             this.textBox2.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.textBox2.Location = new System.Drawing.Point(326, 565);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(199, 20);
             this.textBox2.TabIndex = 11;
             this.textBox2.Text = "contraseña";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox1
             // 
@@ -84,6 +85,7 @@
             this.textBox1.Size = new System.Drawing.Size(199, 20);
             this.textBox1.TabIndex = 10;
             this.textBox1.Text = "nombre del usuario";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox3
             // 
@@ -176,20 +178,12 @@
             this.button3.Text = "Registro de Asistencia del Gimnasio";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(615, 516);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox1.TabIndex = 21;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 651);
-            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button4);
@@ -204,14 +198,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Login";
             this.Text = "Form1";
-
-            // Assign the asterisk to be the password character.
-            textBox2.PasswordChar = '*';
-            // Align the text in the center of the TextBox control.
-            textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-
-
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -234,7 +220,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
 

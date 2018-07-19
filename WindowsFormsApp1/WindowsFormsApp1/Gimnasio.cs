@@ -45,17 +45,6 @@ namespace WindowsFormsApp1
             MessageBox.Show("Opción de ver lista destudiantes", "Message",
             MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Login frm = new Login();
-            frm.Show();
-        }
+        
     }
 }

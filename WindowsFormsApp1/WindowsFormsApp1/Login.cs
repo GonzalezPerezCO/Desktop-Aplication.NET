@@ -26,20 +26,22 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text.Equals("administrador@gimnasio.com")) {
+            if (textBox1.Text.Equals("administrador@gimnasio.com") & textBox2.Text.Equals("123")) {
+                this.Hide();
+                Gimnasio frm = new Gimnasio();
+                frm.Show();
             }
 
-            else if (textBox2.Text.Equals("administrador@deportes.com")) { 
-                }
+            else if (textBox1.Text.Equals("administrador@deportes.com") & textBox2.Text.Equals("123")) {
+                this.Hide();
+                Deportes frm = new Deportes();
+                frm.Show();
+            }
 
             else {
-
+                MessageBox.Show("Datos incorrectos", "Inicio de Sesión",
+                MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
-
-            this.Hide();
-            Gimnasio frm = new Gimnasio();
-            frm.Show();
-            
 
         }
 
