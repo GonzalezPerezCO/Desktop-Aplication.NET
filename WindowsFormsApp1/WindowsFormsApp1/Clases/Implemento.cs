@@ -10,6 +10,7 @@ namespace WindowsFormsApp1.Clases
     {
         public string Name { get; set; }
         public string Code { get; set; }
+        public string Brand { get; set; }
         public int Cant { get; set; }
         public int Lost { get; set; }
         public int Avalaible { get; set; }
@@ -17,13 +18,14 @@ namespace WindowsFormsApp1.Clases
         public Estudiante LoTiene { get; set; }
         public bool Devuelto { get; set; }
 
-        public Implemento(string name, string code, int cant, int lost, int avalaible)
+        public Implemento(string name, string code, string brand, int cant, int lost)
         {
             Name = name;
             Code = code;
+            Brand = brand;
             Cant = cant;
             Lost = lost;
-            Avalaible = avalaible;
+            Avalaible = cant - lost;
             LoTiene = null;
             Devuelto = true;
         }
