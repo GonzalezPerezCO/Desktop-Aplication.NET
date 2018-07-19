@@ -51,6 +51,9 @@
     <Compile Include="Asistencia.Designer.cs">
       <DependentUpon>Asistencia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Clases\Estudiante.cs" />
+    <Compile Include="Clases\Implemento.cs" />
+    <Compile Include="Clases\Poblar.cs" />
     <Compile Include="Informes.cs">
       <SubType>Form</SubType>
     </Compile>
