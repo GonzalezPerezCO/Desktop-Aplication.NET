@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form2 : Form
+    public partial class Deportes : Form
     {
-        public Form2()
+        public Deportes()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 frm = new Form1();
+            Login frm = new Login();
             frm.Show();
         }
 
