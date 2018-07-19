@@ -24,14 +24,16 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Opción de ver asistencia", "Message",
-            MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            this.Hide();
+            Asistencia frm = new Asistencia();
+            frm.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Opción de informes", "Message",
-            MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            this.Hide();
+            Informes frm = new Informes();
+            frm.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -48,7 +50,29 @@ namespace WindowsFormsApp1
 
         private void Gimnasio_Load(object sender, EventArgs e)
         {
-            TextBox myText = new TextBox();
+            Clases.Poblar pob = new Clases.Poblar();
+            pob.IniciarTodo();
+
+            Clases.Estudiante[] array = pob.TodosEstudiantes();
+
+            label3.Text = array[1].Name;
+            label8.Text = array[1].Code.ToString();
+            label10.Text = array[1].Career;
+            label9.Text = array[1].Semester.ToString();
+            label11.Text = array[1].Obervaciones;
+
+            label16.Text = array[2].Name;
+            label15.Text = array[2].Code.ToString();
+            label14.Text = array[2].Career;
+            label13.Text = array[2].Semester.ToString();
+            label12.Text = array[2].Obervaciones;
+
+            label21.Text = array[3].Name;
+            label20.Text = array[3].Code.ToString();
+            label19.Text = array[3].Career;
+            label18.Text = array[3].Semester.ToString();
+            label17.Text = array[3].Obervaciones;
+
 
         }
     }

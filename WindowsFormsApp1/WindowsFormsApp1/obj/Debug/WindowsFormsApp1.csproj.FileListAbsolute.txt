@@ -23,3 +23,4 @@ E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\Window
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Deportes.resources
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Gimnasio.resources
+E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Asistencia.resources

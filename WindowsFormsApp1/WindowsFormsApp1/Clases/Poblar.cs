@@ -9,39 +9,39 @@ namespace WindowsFormsApp1.Clases
     class Poblar
     {
 
-        Estudiante est1;
-        Estudiante est2;
-        Estudiante est3;
-        Estudiante est4;
-        Estudiante est5;
-        Estudiante est6;
-        Estudiante est7;
-        Estudiante est8;
-        Estudiante est9;
-        Estudiante est10;
-        Estudiante est11;
-        Estudiante est12;
-        Estudiante est13;
-        Estudiante est14;
-        Estudiante est15;
-        Estudiante est16;
-        Estudiante est17;
-        Estudiante est18;
-        Estudiante est19;
-        Estudiante est20;
+        Estudiante est1 { get; set; }
+        Estudiante est2 { get; set; }
+        Estudiante est3 { get; set; }
+        Estudiante est4 { get; set; }
+        Estudiante est5 { get; set; }
+        Estudiante est6 { get; set; }
+        Estudiante est7 { get; set; }
+        Estudiante est8 { get; set; }
+        Estudiante est9 { get; set; }
+        Estudiante est10 { get; set; }
+        Estudiante est11 { get; set; }
+        Estudiante est12 { get; set; }
+        Estudiante est13 { get; set; }
+        Estudiante est14 { get; set; }
+        Estudiante est15 { get; set; }
+        Estudiante est16 { get; set; }
+        Estudiante est17 { get; set; }
+        Estudiante est18 { get; set; }
+        Estudiante est19 { get; set; }
+        Estudiante est20 { get; set; }
 
 
-        Implemento impBF1;
-        Implemento impBF2;
-        Implemento impBF3;
+        Implemento impBF1 { get; set; }
+        Implemento impBF2 { get; set; }
+        Implemento impBF3 { get; set; }
 
-        Implemento impBB1;
-        Implemento impBB2;
+        Implemento impBB1 { get; set; }
+        Implemento impBB2 { get; set; }
 
-        Implemento impPF1;
-        Implemento impPF2;
-        Implemento impPF3;
-        Implemento impPF4;
+        Implemento impPF1 { get; set; }
+        Implemento impPF2 { get; set; }
+        Implemento impPF3 { get; set; }
+        Implemento impPF4 { get; set; }
 
         public void IniciarTodo() {
             PoblarEstudiantes();
@@ -49,9 +49,24 @@ namespace WindowsFormsApp1.Clases
             
         }
 
-        private Estudiante[] TodosEstudiantes()
+        public Estudiante BuscarEstdudiante(int code)
         {
-            Estudiante[] array = new Estudiante[20];
+            Estudiante[] array = new Estudiante[21];
+            Estudiante res = null;
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i].Code == code) {
+                    res = array[i];
+                }
+            }
+
+            return res;
+        }
+
+            public Estudiante[] TodosEstudiantes()
+        {
+            Estudiante[] array = new Estudiante[21];
 
             array[1] = est1;
             array[2] = est2;
@@ -77,9 +92,9 @@ namespace WindowsFormsApp1.Clases
             return array;
         }
 
-        private Implemento[] TodosImplementos()
+        public Implemento[] TodosImplementos()
         {
-            Implemento[] array = new Implemento[20];
+            Implemento[] array = new Implemento[10];
 
             array[1] = impBF1;
             array[2] = impBF2;
@@ -116,7 +131,7 @@ namespace WindowsFormsApp1.Clases
         {
             est1 = new Estudiante("Manuel Sergio","Perez Espitia", 2095112, "Ing de Sistemas", 10, true, new string[] {"Lunes: 08:00","Martes: 15:00","Miercoles: 13:00" }, 0, "Ninguna");
             est2 = new Estudiante("Juan Francisco", "Gonzalez Rojas", 2084034, "Ing de Sistemas", 10, true, new string[] { "Lunes: 08:00", "Martes: 15:00", "Miercoles: 13:00" }, 0, "Ninguna");
-            est3 = new Estudiante("Dulce Maríao", "Rodríguez Muñoz", 2168759, "Ing de Sistemas", 1, true, new string[] { "Lunes: 08:00", "Martes: 15:00", "Viernes: 13:00" }, 0, "Tensión alta");
+            est3 = new Estudiante("Dulce María", "Rodríguez Muñoz", 2168759, "Ing de Sistemas", 1, true, new string[] { "Lunes: 08:00", "Martes: 15:00", "Viernes: 13:00" }, 2, "Tensión alta");
             est4 = new Estudiante("Sara Sofía", "Gómez Ramírez", 2138491, "Ing de Sistemas", 1, true, new string[] { "Lunes: 08:00", "Martes: 15:00", "Viernes: 13:00" }, 0, "Diabético");
             est5 = new Estudiante("Luisa Fernanda", "López Jiménez", 2144169, "Ing de Sistemas", 1, true, new string[] { "Lunes: 08:00", "Martes: 15:00", "Miercoles: 13:00" }, 0, "Ninguna");
             est6 = new Estudiante("Sara Valentina", "González Torres", 2150980, "Ing de Sistemas", 1, true, new string[] { "Martes: 08:00", "Martes: 15:00", "Viernes: 13:00" }, 0, "Ninguna");
