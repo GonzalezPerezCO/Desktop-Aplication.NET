@@ -45,6 +45,11 @@ namespace WindowsFormsApp1
             MessageBox.Show("Opción de ver lista destudiantes", "Message",
             MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
         }
-        
+
+        private void Gimnasio_Load(object sender, EventArgs e)
+        {
+            TextBox myText = new TextBox();
+
+        }
     }
 }

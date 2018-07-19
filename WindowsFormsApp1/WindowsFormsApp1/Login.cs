@@ -57,5 +57,25 @@ namespace WindowsFormsApp1
         {
             this.Close();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Gimnasio frm = new Gimnasio();
+            frm.Show();
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Deportes frm = new Deportes();
+            frm.Show();
+        }
     }
 }
