@@ -52,8 +52,46 @@ namespace WindowsFormsApp1.Clases
         private Estudiante[] TodosEstudiantes()
         {
             Estudiante[] array = new Estudiante[20];
-           
-            array[1] = 
+
+            array[1] = est1;
+            array[2] = est2;
+            array[3] = est3;
+            array[4] = est4;
+            array[5] = est5;
+            array[6] = est6;
+            array[7] = est7;
+            array[8] = est8;
+            array[9] = est9;
+            array[10] = est10;
+            array[11] = est11;
+            array[12] = est12;
+            array[13] = est13;
+            array[14] = est14;
+            array[15] = est15;
+            array[16] = est16;
+            array[17] = est17;
+            array[18] = est18;
+            array[19] = est19;
+            array[20] = est20;
+
+            return array;
+        }
+
+        private Implemento[] TodosImplementos()
+        {
+            Implemento[] array = new Implemento[20];
+
+            array[1] = impBF1;
+            array[2] = impBF2;
+            array[3] = impBF3;
+
+            array[4] = impBB1;
+            array[5] = impBB2;
+
+            array[6] = impPF1;
+            array[7] = impPF2;
+            array[8] = impPF3;
+            array[9] = impPF4;
 
             return array;
         }
@@ -72,9 +110,6 @@ namespace WindowsFormsApp1.Clases
             impPF2 = new Implemento("Frisbee", "PF02", "Kyte", 2, 0);
             impPF3 = new Implemento("Frisbee", "PF03", "Tiger", 10, 4);
             impPF4 = new Implemento("Frisbee", "PF04", "Olympic", 2, 0);
-
-
-
         }
 
         public void PoblarEstudiantes()
