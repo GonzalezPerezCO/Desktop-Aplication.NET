@@ -12,10 +12,15 @@ namespace WindowsFormsApp1
 {
     public partial class Gimnasio : Form
     {
+
+        Clases.Poblar pob;
+
         public Gimnasio()
         {
             InitializeComponent();
         }
+
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -50,7 +55,8 @@ namespace WindowsFormsApp1
 
         private void Gimnasio_Load(object sender, EventArgs e)
         {
-            Clases.Poblar pob = new Clases.Poblar();
+            pob = new Clases.Poblar();
+
             pob.IniciarTodo();
 
             Clases.Estudiante[] array = pob.TodosEstudiantes();

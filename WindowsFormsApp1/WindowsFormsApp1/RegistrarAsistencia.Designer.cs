@@ -44,6 +44,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -100,11 +101,13 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(621, 345);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label6.Location = new System.Drawing.Point(580, 310);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.Size = new System.Drawing.Size(18, 29);
             this.label6.TabIndex = 19;
-            this.label6.Text = "label6";
+            this.label6.Text = "\'";
             // 
             // button1
             // 
@@ -202,11 +205,22 @@
             this.textBox1.TabIndex = 29;
             this.textBox1.Text = "código estudiante a buscar";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(765, 85);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 30;
+            this.button3.Text = "buscar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // RegistrarAsistencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1286, 450);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -225,6 +239,7 @@
             this.Controls.Add(this.label1);
             this.Name = "RegistrarAsistencia";
             this.Text = "RegistrarAsistencia";
+            this.Load += new System.EventHandler(this.RegistrarAsistencia_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,5 +263,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button3;
     }
 }
