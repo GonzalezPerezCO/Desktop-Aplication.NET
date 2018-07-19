@@ -15,12 +15,11 @@ E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\Window
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
-E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
-E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
-E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
-E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
+E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Deportes.resources
+E:\Datos-usuarios\manue\Descargas\Desktop-Aplication.NET\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Gimnasio.resources

@@ -26,6 +26,16 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text.Equals("administrador@gimnasio.com")) {
+            }
+
+            else if (textBox2.Text.Equals("administrador@deportes.com")) { 
+                }
+
+            else {
+
+            }
+
             this.Hide();
             Gimnasio frm = new Gimnasio();
             frm.Show();
